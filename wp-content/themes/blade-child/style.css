@@ -1,0 +1,322 @@
+/*
+ Theme Name:   Ananda Professional Theme
+ Description:  Ananda Professional Child Theme
+ Version:      2.6.2
+ Author:       Greatives Team
+ Author URI:   http://greatives.eu
+ Template:     blade
+*/
+
+
+/* Navigation */
+#menu-main-navigation-1 li ul.sub-menu li.menu-item a span {
+	text-transform: uppercase;	
+}
+
+/* Alerts */
+.woocommerce .woocommerce-message,
+.woocommerce .woocommerce-info {
+    background-color: #a3b1a2;
+    color: #ffffff;
+}
+
+/*contact page styling */
+
+#contact-info {
+font-family: "Cabin Condensed";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: NONE !important;
+    line-height: 18px;
+    letter-spacing: 3.7px;
+    color: #f1b144;
+}
+
+#contact-info > .grve-subtitle {
+	font-family: "Cabin Condensed";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: NONE !important;
+    line-height: 18px;
+    letter-spacing: 3.7px;
+	color: #f1b144;
+}
+
+#contact-icon-text h5{
+	color:#ffffff !important;
+}
+
+div.wpcf7 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+	
+ #grve-theme-wrapper input[type='submit']:not(.grve-custom-btn) {
+	 border: 1px solid;
+    background-color: #212121;
+    border-color: #a3b1a200;
+    color: #ffffff;
+ }
+
+ /*footer*/
+ 
+.grve-widget-title {
+    margin-bottom: 15px;
+}
+
+
+
+/* Product Gallery */
+.mfp-bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1042;
+    overflow: hidden;
+    position: fixed;
+    background: #FFF;
+}
+
+.mfp-zoom-out-cur, 
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close::before, 
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close::after {
+	color: #000;
+	background-color: #000;
+}
+
+/*links*/
+a {
+    color: #a3b1a2;
+    font-weight: 500;
+}
+
+.background-image {
+	background-size: cover;
+}
+
+/*.woocommerce form .form-row .required {
+    color: black;    
+}*/
+
+abbr[title] {
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none !important;
+}
+abbr.required {
+  color: red;
+}
+
+/*.product-type-grouped #grve-product-feature-image {
+    display: none;
+}
+
+.product-type-grouped #grve-entry-summary {
+    width: 100%;
+    float: none;
+}
+
+.product-type-grouped #grve-entry-summary h3.price {
+    display: none;
+}
+
+.product-type-grouped #grve-entry-summary .quantity {
+    min-width:95px;
+}
+
+.product-type-grouped #grve-entry-summary .product-image {
+    min-width: 100px;
+}*/
+
+#grve-related-products {
+    display: none;
+}
+
+#grve-single-post-meta-bar {
+    display: none;
+}
+
+
+/*.hide-no-member {
+    display: none;
+}
+.member-logged-in .hide-no-member, .admin-bar .hide-no-member {
+    display: list-item;
+}*/
+
+
+.woocommerce div.product div#grve-product-feature-image {
+    display: flex;
+}
+
+.woocommerce div.product div#grve-product-feature-image .grve-product-image {
+    margin-left: 1em;
+    order: 2;
+}
+
+.woocommerce div.product div#grve-product-feature-image .thumbnails {
+    flex: 0 0 80px;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+}
+
+.woocommerce div.product div#grve-product-feature-image .thumbnails a {
+    margin-bottom: 1em;
+    /*margin-right: 1em;*/
+    display: block;
+    /*flex: 0 0 80px;*/
+}
+
+.woocommerce table.cart td.product-remove {
+    padding-left: 8px;
+}
+
+
+/* login form on homepage */
+.with_login_form #log_forms {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    width: 320px;
+    background: #fff;
+    padding: 15px 30px;
+}
+.with_login_form .logged-in {
+    display: none;
+}
+.with_login_form .log-form-group {
+    margin: 1rem 0;
+}
+.with_login_form .log-form-group input {
+    margin: 0 !important;
+}
+.with_login_form .log-form-group label.lw-error {
+    display: none !important;
+}
+.with_login_form .log-form-group input.lw-error {
+    border-color: #a30 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .with_login_form #log_forms {
+        display: none;
+    }
+}
+
+#asl-storelocator > .row:last-child {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.woocommerce div.product p.price {
+    margin-top: 15px;
+    font-size: 2.25em;
+    font-weight: bold;
+}
+
+.woocommerce-inservice-fields {
+    margin-top: 70px;
+}
+
+#asl-storelocator.asl-p-cont.asl-bg-6 .Num_of_store {
+    display: none !important;
+}
+#asl-storelocator.asl-p-cont.asl-bg-6 #panel.storelocator-panel {
+    margin-top: 0 !important;
+}
+
+.woocommerce div.product p.price {
+    color: #000;
+}
+
+.free-shipping-notice {
+    font-size: 16px
+    font-weight: bold;
+}
+
+#grve-main-menu .grve-wrapper > ul > li > .switched-onto {
+    display: flex;
+    flex-direction: column;
+    color: #56565a;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+    height: 90px;
+}
+
+#grve-main-menu .grve-wrapper > ul > li > .switched-onto span {
+    font-weight: bold;
+}
+
+#grve-main-menu .grve-wrapper > ul > li > .switched-onto span:first-child {
+    font-weight: normal;
+}
+
+#grve-header.grve-sticky-header.grve-shrink #grve-main-menu .grve-wrapper > ul > li > .switched-onto {
+    height: 60px;
+}
+
+#grve-main-menu .grve-wrapper>ul>li ul li a:hover, #grve-main-menu .grve-wrapper>ul>li ul li.current-menu-item>a, #grve-main-menu .grve-wrapper>ul li li.current-menu-ancestor>a {
+    color: #a3b1a2 !important;
+}
+
+
+                    
+.invalid_pets_popup_overlay {
+    background-color: rgba(255,255,255,0.90);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 9998;
+}
+.invalid_pets_popup {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 350px;
+    background-color: #232323;
+    color: #777777;
+    z-index: 9999;
+}
+.invalid_pets_popup_close {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    font-size: 72px;
+    line-height: 1em;
+    width: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+.invalid_pets_popup_content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 38px;
+    flex-direction: column;
+}
+.invalid_pets_popup_message {
+    color: #fff !important;
+    text-transform: none !important;
+}
+
+/* pets logo */
+#asl-storelocator.asl-p-cont .item .thumb-a img {
+    width: auto !important;
+}
+
